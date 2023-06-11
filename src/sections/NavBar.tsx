@@ -123,10 +123,10 @@ export default function NavBar() {
               delay: 0.6,
             }}
           >
-            {/* <Button text="Resume" link="http://localhost:3000/resume.pdf" /> */}
+            {/* <Button text="Resume" link="http://localhost:3000/Resume.pdf" /> */}
             <Button
               text="Resume"
-              link="https://medoussemazaier.vercel.app/resume.pdf"
+              link="https://medoussemazaier.vercel.app/Resume.pdf"
             />
           </motion.div>
         </div>
