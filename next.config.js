@@ -8,9 +8,8 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  experimental: {
-    images: {
-      unoptimized: true,
-    },
+  images: {
+    // Disable optimization during export
+    unoptimized: true,
   },
 }
