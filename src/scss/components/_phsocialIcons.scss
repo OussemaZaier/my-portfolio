@@ -1,0 +1,50 @@
+.ph-social-icons {
+  bottom: 0;
+  left: 4rem;
+  margin: 2rem auto;
+  &-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    &-item {
+      font-size: var(--tlarge2);
+      transition: 0.3s ease-in-out;
+
+      &-link {
+        padding: 10px;
+        color: var(--lightest-slate);
+        transition: 0.3s ease-in-out;
+        outline: 2px dashed transparent;
+
+        &:hover {
+          color: var(--theme-color);
+        }
+
+        &:focus {
+          outline-color: var(--theme-color);
+          transform: translateY(-4px);
+          color: var(--theme-color);
+        }
+      }
+
+      &:hover {
+        transform: translateY(-4px);
+      }
+
+      &:last-child {
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1080px) {
+    left: 2rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+:root {
+  --navy-shadow: rgba(32, 58, 67, 0.7);
+  --background-color: #14213d;
+  --lightest-navy: #fee5bb;
+  --light-navy: #fdc466;
+  --dark-slate: #6b7d8d;
+  --slate: #aebfd6;
+  --light-slate: #e7eff8;
+  --lightest-slate: #c4d2e0;
+  --theme-color: #fca311;
+
+  --tsm: 13px;
+  --tsm1: 14px;
+  --tsm2: 15px;
+  --tbase: 16px;
+  --tlarge: 18px;
+  --tlarge2: 22px;
+  --txlarge: 25px;
+  --tx2large: 32px;
+  --tgiant: clamp(40px, 8vw, 80px);
+}
+
+@media screen and (max-width: 480px) {
+  :root {
+    --tx2large: 25px;
+  }
+}
