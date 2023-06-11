@@ -126,7 +126,7 @@ export default function NavBar() {
             {/* <Button text="Resume" link="http://localhost:3000/resume.pdf" /> */}
             <Button
               text="Resume"
-              link="https://medoussemazaier.vercel.app//resume.pdf"
+              link="https://medoussemazaier.vercel.app/resume.pdf"
             />
           </motion.div>
         </div>
