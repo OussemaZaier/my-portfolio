@@ -8,5 +8,9 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  target: 'experimental-serverless-trace',
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
 }
